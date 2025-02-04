@@ -1,0 +1,30 @@
+/*Função anônima
+
+botaoTeste.addEventListener('click', function () {
+alert('oi')
+} )
+
+botaoTeste.addEventListener('click', () => alert ('OI'))
+
+*/
+/*************************************************************************/
+
+/*app.js
+const botaoTeste = document.getElementById('teste')
+
+function criarElemento () {
+    const body = document.querySelector('body')
+    const novoBotao = document.createElement('button')
+    novoBotao.textContent = 'Botão criado pelo JS'
+
+    body.appendChild(novoBotao)
+}
+
+botaoTeste.addEventListener('click', criarElemento)
+
+*/
+/*index.html
+
+<button id="teste">TESTE</button>
+
+*/
